@@ -16,7 +16,7 @@ def run_game():
     pygame.init()
     ai_settings = Settings()
     print(ai_settings)
-    screen = pygame.display.set_mode((ai_settings.screen_width,ai_settings.screen_height))
+    screen =  pygame.display.set_mode((ai_settings.screen_width,ai_settings.screen_height))
     #screen = pygame.display.set_mode((1200, 800))
     pygame.display.set_caption('Alien Invasion')
 
